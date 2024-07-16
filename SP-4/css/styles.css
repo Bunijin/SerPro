@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#category-container {
+    margin-bottom: 20px;
+}
+
+#product-list div {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
