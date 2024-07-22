@@ -1,7 +1,7 @@
 import {Product} from '../product.js';
 
 const electronicsCategories = [
-   new Product('E001', 'ทีวี 42 นิ้ว', 'ทีวีสมาร์ต 42 นิ้ว ความละเอียด 4K', 30, { brand: 'Samsung', resolution: '4K' }),
+    new Product('E001', 'ทีวี 42 นิ้ว', 'ทีวีสมาร์ต 42 นิ้ว ความละเอียด 4K', 30, { brand: 'Samsung', resolution: '4K' }),
     new Product('E002', 'ทีวี 55 นิ้ว', 'ทีวีสมาร์ต 55 นิ้ว ความละเอียด Full HD', 25, { brand: 'LG', resolution: 'Full HD' }),
     new Product('E003', 'โน้ตบุ๊ก Intel i5', 'โน้ตบุ๊กประสิทธิภาพสูง พร้อมหน่วยประมวลผล Intel i5', 20, { brand: 'Dell', processor: 'Intel i5', ram: '8GB' }),
     new Product('E004', 'โน้ตบุ๊ก AMD Ryzen 5', 'โน้ตบุ๊กพร้อมหน่วยประมวลผล AMD Ryzen 5', 15, { brand: 'HP', processor: 'AMD Ryzen 5', ram: '16GB' }),
