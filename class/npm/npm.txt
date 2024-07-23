@@ -1,0 +1,5 @@
+npm -v
+npm init
+npm i jquery
+npm i bootstrap
+npm fund
