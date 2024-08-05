@@ -1,0 +1,14 @@
+[
+    {
+        "name": "4_band_resistor",
+        "band": 4
+    },
+    {
+        "name": "5_band_resistor",
+        "band": 5
+    },
+    {
+        "name": "6_band_resistor",
+        "band": 6
+    }
+]

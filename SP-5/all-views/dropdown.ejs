@@ -1,0 +1,8 @@
+<div class="form-group">
+    <label for="resistorType">Select Resistor Type</label>
+    <select id="resistorType" class="form-control" onchange="window.location.href=this.value;">
+        <option value="/4_band_resistor" <%= currentType === '4_band_resistor' ? 'selected' : '' %>>4 Band Resistor</option>
+        <option value="/5_band_resistor" <%= currentType === '5_band_resistor' ? 'selected' : '' %>>5 Band Resistor</option>
+        <option value="/6_band_resistor" <%= currentType === '6_band_resistor' ? 'selected' : '' %>>6 Band Resistor</option>
+    </select>
+</div>
