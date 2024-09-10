@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SP-1</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="top">
+      <h1 class="center"><img src="\ThaiStrokeSociety.jpeg" /></h1>
+      <h2>
+        <label for="number">เลขที่</label>
+        <input type="text" name="number" id="number" />
+      </h2>
+      <h3 class="center">ใบสมัคร</h3>
+      <h4 class="center">สมาชิกสมาคมโรคหลอดเลือดสมองไทย</h4>
+      <h5 class="center">(THAI STROKE SOCIETY)</h5>
+      <hr>
+    </div>
+    <div class="frame">
+      <p>รูปถ่าย 1 นิ้ว</p>
+    </div>
+    <form action="data.php" method="POST">
+      <div class="form">
+        <div>
+          <label for="fnameth">1. ชื่อ</label>
+          <input type="text" name="fnameth" id="fnameth" />
+          <label for="lnameth">นามสกุล</label>
+          <input type="text" name="lnameth" id="lnameth" />
+        </div>
+        <div>
+          <label for="fnameen">2. NAME</label>
+          <input type="text" name="fnameen" id="fnameen" />
+          <label for="lnameen">SURNAME</label>
+          <input type="text" name="lnameen" id="lnameen" />
+        </div>
+        <div>
+          <label for="birthdate">3. วันเดือนปีเกิด</label>
+          <input type="date" name="birthdate" id="birthdate" />
+        </div>
+        <div>
+          <label for="position">4. ตำแหน่งหรือยศ</label>
+          <input type="text" name="position" id="position" />
+        </div>
+        <div>
+          <table class="right">
+            <tr>
+              <td>
+                <label for="house-address">5. ที่อยู่บ้านเลขที่</label>
+                <input type="text" name="house-address" id="house-address" />
+              </td>
+              <td>
+                <label for="muu">หมู่ที่</label>
+                <input type="text" name="muu" id="muu" />
+              </td>
+              <td>
+                <label for="soi">ซอย</label>
+                <input type="text" name="soi" id="soi" />
+              </td>
+              <td>
+                <label for="road">ถนน</label>
+                <input type="text" name="road" id="road" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="tumbon">แขวง/ตำบล</label>
+                <input type="text" name="tumbon" id="tumbon" />
+              </td>
+              <td>
+                <label for="district">เขต/อำเภอ</label>
+                <input type="text" name="district" id="district" />
+              </td>
+              <td>
+                <label for="province">จังหวัด</label>
+                <input type="text" name="province" id="province" />
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><label for="postal-code">รหัสไปรษณีย์</label>
+                <input type="number" name="postal-code" id="postal-code" />
+              </td>
+              <td>
+                <label for="phone-number">โทรศัพท์</label>
+                <input type="number" name="phone-number" id="phone-number" />
+              </td>
+              <td>
+                <label for="fax-number">โทรสาร</label>
+                <input type="number" name="fax-number" id="fax-number" />
+              </td>
+              <td>
+                <label for="mobile-number">โทรศัพท์มือถือ</label>
+                <input type="number" name="mobile-number" id="mobile-number" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email" class="space">E-mail</label>
+                <input type="email" name="email" id="email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="work-adress">6.ที่ทำงานเลขที่</label>
+                <input type="text" name="work-adress" id="work-adress" />
+              </td>
+              <td>
+                <label for="muu2">หมู่ที่</label>
+                <input type="text" name="muu2" id="muu2" />
+              </td>
+              <td>
+
+                <label for="soi2">ซอย</label>
+                <input type="text" name="soi2" id="soi2" />
+              </td>
+              <td>
+                <label for="road2">ถนน</label>
+                <input type="text" name="road2" id="road2" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="tumbon2">แขวง/ตำบล</label>
+                <input type="text" name="tumbon2" id="tumbon2" />
+              </td>
+              <td>
+                <label for="district2">เขต/อำเภอ</label>
+                <input type="text" name="district2" id="district2" />
+              </td>
+              <td>
+                <label for="province2">จังหวัด</label>
+                <input type="text" name="province2" id="province2" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="postal-code2">รหัสไปรษณีย์</label>
+                <input type="number" name="postal-code2" id="postal-code2" />
+              </td>
+              <td>
+                <label for="phone-number2">โทรศัพท์</label>
+                <input type="number" name="phone-number2" id="phone-number2" />
+              </td>
+              <td>
+                <label for="fax-number2">โทรสาร</label>
+                <input type="number" name="fax-number2" id="fax-number2" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="contact" class="space">สถานที่ติดต่อ</label>
+                <input type="radio" id="at-home" name="contact" value="ที่บ้าน" />
+                <label for="at-home">ที่บ้าน</label>
+                <input type="radio" id="at-work" name="contact" value="ที่ทำงาน" />
+                <label for="at-work">ที่ทำงาน</label>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="tab">
+      </div>
+      <div class="tab">
+      </div>
+      <div class="tab">
+      </div>
+      <div>
+        <label for="qualification">7.คุณวุฒิ</label>
+        <input type="text" name="qualification" id="qualification" />
+      </div>
+      <div>
+        <label for="medical-certificate">8.เลขใบประกอบวิชาชีพเวชกรรม</label>
+        <input type="text" name="medical-certificate" id="medical-certificate" />
+      </div>
+      <div>9.คุณสมบัติ</div>
+      <div class="tab">
+        <label for="text">9.1 สมาชิกสามัญและสมาชิกวิสามัญ</label>
+      </div>
+      <div class="tab">
+        <input type="radio" id="choice1" name="member" value="แพทย์ทั่วไป" class="tab-in" />
+        <label for="choice1">แพทย์ทั่วไป</label>
+        <input type="radio" id="choice2" name="member" value="วุฒิบัตร/อนุมัติบัตรประสาทวิทยา" />
+        <label for="choice2">วุฒิบัตร/อนุมัติบัตรประสาทวิทยา</label>
+        <input type="radio" id="choice3" name="member" value="วุฒิบัตร/อนุมัติบัตรประสาทศัลยศาสตร์" />
+        <label for="choice3">วุฒิบัตร/อนุมัติบัตรประสาทศัลยศาสตร์</label>
+      </div>
+      <div class="tab">
+        <input type="radio" id="choice4" name="member" value="วุฒิบัตร/อนุมัติบัตรประสาทวิทยา" class="tab-in" />
+        <label for="choice4">วุฒิบัตร/อนุมัติบัตรประสาทกุมารแพทย์</label>
+        <input type="radio" id="choice5" name="member" />
+        <label for="choice5">แพทย์เฉพาะทางสาขาอื่น ๆ โปรดระบุ</label>
+        <input type="text" name="member" id="choice6" />
+      </div>
+      <div class="tab">
+        <label for="text" class="tab-in">9.2 สมาชิกสมทบ</label>
+      </div>
+      <div class="tab">
+        <input type="radio" name="member-addon" id="addon1" value="พยาบาล" class="tab-in" />
+        <label for="member-addon">พยาบาล</label>
+        <input type="radio" name="member-addon" id="addon2" />
+        <label for="member-addon">อื่น ๆ โปรดระบุ</label>
+        <input type="text" name="member" id="addon3" />
+      </div>
+      <div class="tab">
+        <label for="text" class="tab-in">ข้าพเจ้าขอสมัตรเป็นสมาชิกสมาคมโรคหลอดเลือดสมองไทย
+          โดยได้แนบหลักฐานดังนี้</label>
+      </div>
+      <div class="tab">
+        <label for="text" class="tab-in">1. รูปถ่ายขนาด 2 นิ้ว จำนวน 1 รูป</label>
+      </div>
+      <div class="tab">
+        <label for="text" class="tab-in">2. เงินค่่าสมาชิกตลอดชีพ</label>
+        <input type="radio" name="money" id="money1" value="1000" />
+        <label for="money1">สมาชิกสามัญและสมาชิกวิสามัญ จำนวน 1,000 บาท</label>
+        <input type="radio" name="money" id="money2" value="1000" />
+        <label for="money2">สมาชิกสมทบ จำนวน 600 บาท โดยชำระเป็น</label>
+      </div>
+      <div class="tab">
+        <p></p>
+      </div>
+      <div class="center">
+        <table class="right">
+          <tr>
+            <td></td>
+            <td><label for="cash" class="more-tab">%L.)เงินสด </label> จำนวน
+              <input type="text" name="cash" id="cash1" /> บาท
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><label for="cash" class="more-tab">%L.)เช็คขีดคร่อม </label> จำนวน
+              <input type="text" name="cash" id="cash2" /> บาท
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="center">โดยสั่งจ่าย "สมาคมโรคหลอดเลือดสมองไทย"</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="signature-recieve">ลงชื่อผู้รับเงิน</label>
+              <input type="text" name="signature-recieve" id="signature-recieve" />
+            </td>
+            <td></td>
+            <td><label for="signature-signup" class="more-tab">ลงชื่อสมัคร</label>
+              <input type="text" name="signature-signup" id="signature-signup" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="signature-recieve"></label>(
+              <input type="text" name="signature-recieve" id="sig1" />
+            </td>
+            <td></td>
+            <td>
+              <label for="signature-recieve" class="more-tab"></label>(
+              <input type="text" name="signature-recieve" id="sig2" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="signature-recieve">วันที่</label>
+              <input type="text" name="signature-recieve" id="day1" />
+            </td>
+            <td></td>
+            <td>
+              <label for="signature-signup" class="more-tab">วันที่</label>
+              <input type="text" name="signature-signup" id="day2" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <hr>
+      <div class="center">
+        <p>เฉพาะเจ้าหน้าที่</p>
+      </div>
+      <div>
+
+        ได้รับเป็นสมาชิกประเภท
+        <input type="radio" name="member-type" id="A1" />
+        <label for="A1">สามัญ</label>
+        <input type="radio" name="member-type" id="B1" />
+        <label for="B1">วิสามัญ</label>
+        <input type="radio" name="member-type" id="C1" />
+        <label for="C1">สมาชิกสมทบ</label>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <td>
+              นายทะเบียน
+              <input type="text" name="registrar" id="registrar" />
+            </td>
+            <td>
+              <input type="text" name="association" id="association" />
+              นายกสมาคม/เลขาธิการ
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="center">
+        <input type="submit" value="Submit Application" />
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
